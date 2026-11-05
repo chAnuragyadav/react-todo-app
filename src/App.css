@@ -1,0 +1,38 @@
+.container {
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: white;
+}
+
+input {
+  padding: 10px;
+  width: 65%;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+}
+
+li span {
+  flex: 1;
+  text-align: left;
+}
